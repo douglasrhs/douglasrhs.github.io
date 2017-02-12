@@ -1,0 +1,8 @@
+
+#navbar-primary.navbar-default {
+  background: transparent;
+  border: none;
+  background-color: rgba(0,0,0, 0.3);
+  max-height: 10px;
+}
+
