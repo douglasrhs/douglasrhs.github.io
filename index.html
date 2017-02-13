@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/socialmedia.css">
     <link rel="stylesheet" href="./css/banner.css">
 </head>
-<body>
+<body class="container-fluid">
     <header role="banner">
         <nav id="navbar-primary" class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -37,53 +37,49 @@
 
 
         <!-- os cara so porta lançamento -->
-    <div class="container-fluid">
-        <div class="container">
-            <div class="div-principal row">
-                <div class="col-sm-12">
-                    <img ID="imgProfile" src="./images/doug-social.jpg" class="img-responsive img-circle" />
-                    <p class="name">Douglas dos Santos Oliveira</p>
-                    <p class="profission">Web Developer</p>
-                    <br />
-                    <div class="social">
-                        <ul>
-                            <li>
-                                <a href="https://github.com/douglasrhs" target="_blank">
-                                    <i class="fa fa-lg fa-github" /></i>
-                                </a>                                
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/douglas-santos-0a3771101?trk=nav_responsive_tab_profile" target="_blank">
-                                    <i class="fa fa-lg fa-linkedin" /></i>
-                                </a>                                
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/douglas_sts1/" target="_blank">
-                                    <i class="fa fa-lg fa-instagram" /></i>
-                                </a>                                
-                            </li>
-                        </ul>
-                        <a id="linkCurriculo" class="btn btn-default" href="./images/Currículo - Douglas dos Santos Oliveira 2016 - End Guaratinguetá.pdf" target="_blank">Currículo.pdf</a>
-                    </div><!-- divsocial -->
-                    
-                </div><!-- div col-sm-12 -->
-            </div><!-- div-principal-->
-            <hr/>
-            <div class="div-sobre row">
-                <p id="sobre" class="titulos">Sobre/About</p>
-                <div class="col-sm-5 div-briefs shadow">
-                    <p class="title-about-me">Sobre mim</p>
-                    <p class="text-about-me">Olá, é sempre um prazer ter uma visita aqui, seja bem vindo, vou me apresentar brevemente, sou recém formado em Análise e Desenvolvimento de sistemas pela FATEC de Guaratinguetá(FATEC) onde tenho muito orgulho de ter estudado.</p>
-                    <p class="text-about-me">Brasileiro, 23 anos de idade e atualmente morando em Guaratinguetá-SP, tenho como hobbies jogar basquete, andar de longboard, correr, nadar, curtir uma boa música, festivais e principalmente programar para web!</p>
-                    <p class="text-about-me">Confeço que estou no início de minha carreira como desenvolvedor mas já sei que estou na profissão certa,</p>
-                    <p class="text-about-me">sempre me dei bem com programação e eu sou um desenvolvedor web, mas afinal o que seria isso? </p>
-                    <p class="text-about-me">Seria um profissional que desenvolve sites institucionais ou também aplicações web para um propósito específico.</p>
-                    <p class="text-about-me">Atualmente estou trabalhando como freelance, desenvolvendo projetos para pequenas e médias empresas.</p>
-                    <p class="text-about-me">Se interessou? Será uma honra conversarmos sobre um novo projeto e colocá-lo em prática.</p>
-
-                </div>
-                <div class="col-sm-2"></div>
-                <div class="col-sm-5 div-briefs shadow">
+        <section class="container">
+            <div class="col-sm-12 principal">
+                <img ID="imgProfile" src="./images/doug-social.jpg" class="img-responsive img-circle" />
+                <p class="name">Douglas dos Santos Oliveira</p>
+                <p class="profission">Web Developer</p>
+                <br />
+                <div class="social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/douglasrhs" target="_blank">
+                                <i class="fa fa-lg fa-github" /></i>
+                            </a>                                
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/douglas-santos-0a3771101?trk=nav_responsive_tab_profile" target="_blank">
+                                <i class="fa fa-lg fa-linkedin" /></i>
+                            </a>                                
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/douglas_sts1/" target="_blank">
+                                <i class="fa fa-lg fa-instagram" /></i>
+                            </a>                                
+                        </li>
+                    </ul>
+                    <a id="linkCurriculo" class="btn btn-default" href="./images/CurrículoEndGta.pdf" target="_blank">Currículo.pdf</a>
+                </div><!-- div.social --> 
+            </div>   <!-- div.col-sm-12 div-principal-->  
+        </section><!-- section.principal-->
+        <hr/>
+        <section class="container sobre">
+            <p id="sobre" class="titulos">Sobre/About</p>
+            <div class="col-md-5 col-sm-12 div-briefs shadow">
+                <p class="title-about-me">Sobre mim</p>
+                <p class="text-about-me">Olá, é sempre um prazer ter uma visita aqui, seja bem vindo, vou me apresentar brevemente, sou recém formado em Análise e Desenvolvimento de sistemas pela FATEC de Guaratinguetá(FATEC) onde tenho muito orgulho de ter estudado.</p>
+                <p class="text-about-me">Brasileiro, 23 anos de idade e atualmente morando em Guaratinguetá-SP, tenho como hobbies jogar basquete, andar de longboard, correr, nadar, curtir uma boa música, festivais e principalmente programar para web!</p>
+                <p class="text-about-me">Confeço que estou no início de minha carreira como desenvolvedor mas já sei que estou na profissão certa,</p>
+                <p class="text-about-me">sempre me dei bem com programação e eu sou um desenvolvedor web, mas afinal o que seria isso? </p>
+                <p class="text-about-me">Seria um profissional que desenvolve sites institucionais ou também aplicações web para um propósito específico.</p>
+                <p class="text-about-me">Atualmente estou trabalhando como freelance, desenvolvendo projetos para pequenas e médias empresas.</p>
+                <p class="text-about-me">Se interessou? Será uma honra conversarmos sobre um novo projeto e colocá-lo em prática.</p>
+            </div><!-- div.col-md-5 -->
+            <div class="col-sm-2"></div>
+            <div class="col-md-5 col-sm-12 div-briefs shadow">
                     <p class="title-about-me">About me</p>
                     <p class="text-about-me">Hello, it is always a pleasure to have a visit here, welcome, I will introduce myself briefly, I am a recent graduate in Systems Analysis and Development by FATEC in Guaratinguetá (FATEC) where I am very proud to have studied.</p>
                     <p class="text-about-me">Brazilian, 23 years old and currently living in Guaratinguetá-SP, I have hobbies like playing basketball, longboarding, running, swimming, enjoying good music, festivals and mainly programming for the web!</p>
@@ -92,68 +88,68 @@
                     <p class="text-about-me">It would be a professional who develops institutional websites or also web applications for a specific purpose.</p>
                     <p class="text-about-me">I am currently working as a freelance, developing projects for small and medium businesses.</p>
                     <p class="text-about-me">Interested? It will be an honor to talk about a new project and put it into practice.</p>
+            </div><!-- div.col-md-5 -->
+        </section><!-- section.sobre  -->
+        <hr/>
+        <section class="container habilidades">
+            <div class="row">
+                <p id="habilidades" class="titulos">Habilidades/Skills</p>
+                <div class="col-sm-6">
+                    <figure>
+                        <img src="../images/147949-html5-css3-javascript.png" class="img-responsive" id="img_htmlcssjs" />
+                    </figure>
+                </div><!-- div.col-sm-6 -->
+                <div class="col-sm-6">
+                    <h2 class="titulo-hab">HTML / CSS / JS</h2>
+                    <p class="subtitulo-hab">3 peças fundamentais para todo desenvolver WEB!</p>
+                </div><!-- div.col-sm-6 -->         
+            </div><!-- div.row -->
+            <div class="row">
+                <div class=" col-sm-6">
+                    <h2 class="titulo-hab">C# / Node.js</h2>
+                    <p class="subtitulo-hab">As linguagens de backend mais utilizadas atualmente!</p>                        
                 </div>
-            </div>
-            <hr/>
-            <div class="div-habilidades">
-                <div class="row">
-                    <p id="habilidades" class="titulos">Habilidades/Skills</p>
-                    <div class=" col-sm-6">
-                        <figure>
-                            <img src="../images/147949-html5-css3-javascript.png" class="img-responsive" id="img_htmlcssjs" />
-                        </figure>
-                    </div>
-                    <div class="col-sm-6">
-                        <h2 class="titulo-hab">HTML / CSS / JS</h2>
-                        <p class="subtitulo-hab">3 peças fundamentais para todo desenvolver WEB!</p>
-                    </div>                    
-                </div><!-- div.row -->
-                <div class="row">
-                    <div class=" col-sm-6">
-                        <h2 class="titulo-hab">C# / Node.js</h2>
-                        <p class="subtitulo-hab">As linguagens de backend mais utilizadas atualmente!</p>                        
-                    </div>
-                    <div class="col-sm-3">
-                        <figure><img src="../images/csharp.png" class="img-responsive img-habilidades" id="img_csharp" /></figure>
-                    </div> 
-                    <div class="col-sm-3">
-                        <figure><img src="../images/nodejs-logo.png" class="img-responsive img-habilidades" id="img_nodejs" /></figure>
-                    </div>                                       
+                <div class="col-sm-3">
+                    <figure><img src="../images/csharp.png" class="img-responsive img-habilidades" id="img_csharp" /></figure>
+                </div> 
+                <div class="col-sm-3">
+                    <figure><img src="../images/nodejs-logo.png" class="img-responsive img-habilidades" id="img_nodejs" /></figure>
+                </div>                                       
+            </div><!-- div.row -->
+            <div class="row">
+                <div class="col-sm-6">
+                    <figure><img src="../images/mongodblogo.png" class="img-responsive img-dbs"/></figure>
+                    <figure><img src="../images/MySQL.png" class="img-responsive img-dbs"/></figure>
+                    <figure><img src="../images/logo_sqlserver.png" class="img-responsive img-dbs"/></figure>
                 </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <figure><img src="../images/mongodblogo.png" class="img-responsive img-dbs"/></figure>
-                        <figure><img src="../images/MySQL.png" class="img-responsive img-dbs"/></figure>
-                        <figure><img src="../images/logo_sqlserver.png" class="img-responsive img-dbs"/></figure>
-                    </div>
-                    <div class="col-sm-6">
-                        <h2 class="titulo-hab">DataBases</h2>
-                        <p class="subtitulo-hab">Banco de dados SQL relacional e NoSQL.</p>
-                    </div>                    
-                </div><!-- div.row -->
-            </div>            
-            <hr/>
-            <div class="div-devforyou row">
+                <div class="col-sm-6">
+                    <h2 class="titulo-hab">DataBases</h2>
+                    <p class="subtitulo-hab">Banco de dados SQL relacional e NoSQL.</p>
+                </div>                    
+            </div><!-- div.row -->
+        </section><!-- section.habilidades  -->         
+        <hr/>
+        <section class="devforyou">
+            <div class="row">
                 <div class="col-sm-12">
                     <p class="text-devforyou-1">Precisa de uma aplicação para gerenciar seu negócio? </p>
                     <p class="text-devforyou-2">Eu posso te ajudar!</p>
                     <p class="text-devforyou">Entre em contato para que possamos conversar mais sobre</p>
                     <p class="text-devforyou">e tomar um café <i id="coffe" class="fa fa-coffee fa-1x" aria-hidden="true"></i></p>
-                </div>
-            </div>
-            <hr/>
-            <div class="div-contato row">
-                <p id="contato" class="titulos">Contato/Contact</p>
-                <div class="contact-div">
-                    <p class="email"><span class="glyphicon glyphicon-envelope emailspan"></span>&nbsp douglas-rhs@hotmail.com</p>
-                </div>
-            </div>
-            <footer>
-                <p class="text-center">Copyright &copy 2016 Douglas Santos. All Rights Reserved.</p>
-            </footer>
-            <p class="footer-iceman text-center">⛄</p>
-        </div><!--container--> 
-    </div>   
+                </div><!-- div.col-sm-12 -->
+            </div><!-- div.row  -->
+        </section><!-- section.devforyou -->
+        <hr/>
+        <section class="contato">
+            <p id="contato" class="titulos">Contato/Contact</p>
+            <div class="contact-div">
+                <p class="email"><span class="glyphicon glyphicon-envelope emailspan"></span>&nbsp douglas-rhs@hotmail.com</p>
+            </div><!-- div.contact-div -->
+        </section><!-- section.contato -->
+        <footer class="container">
+            <p class="text-center">Copyright &copy 2016 Douglas Santos. All Rights Reserved.</p>
+        </footer><!-- footer.container  -->
+        <p class="footer-iceman text-center">⛄</p>
     <script src="./libs/jquery/jquery-3.0.0.min.js"></script>
     <script src="./scripts/myscript.js"></script>
 </body>

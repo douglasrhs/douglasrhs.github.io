@@ -35,7 +35,7 @@ body {
     float: right;
 }
 
-.div-habilidades > .row {
+.habilidades > .row {
     padding-bottom: 20px;
 }
 
@@ -62,13 +62,13 @@ body {
     height: 100px;
 }
 
-.div-principal{
+.principal{
     padding-top: 45px;
 }
-.div-sobre{
+.sobre{
     padding-bottom:20px;
 }
-.div-devforyou{
+.devforyou{
     padding: 20px;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -76,14 +76,16 @@ body {
     border-radius:10px;
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
+    width: auto;
+    height: auto;
 }
 
-.div-habilidades{
+.habilidades{
     padding-bottom:20px;
     /*background-color: white;*/
 }
 
-.div-contato{
+.contato{
     padding-bottom:20px;
 }
 
